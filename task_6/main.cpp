@@ -16,7 +16,7 @@ void start_tests() {
 
     assert(format("{{0}} = {0}", 42) == "{42} = 42");
 
-    assert(format("") == "");
+    assert(format("").empty());
 
     assert(format("hello") == "hello");
 
